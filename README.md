@@ -2,9 +2,9 @@
 
 Speech: https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
 
-sox:
+sox: `brew install sox`
 
-`!sox infile outfile trim`
+`!sox infile outfile trim start_time end_time`
 
 
 ARFF to CSV converter: https://github.com/haloboy777/arfftocsv
