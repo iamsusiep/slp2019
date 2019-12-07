@@ -2,6 +2,10 @@
 
 Speech: https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
 
+sox:
+
+`!sox infile outfile trim`
+
 
 ARFF to CSV converter: https://github.com/haloboy777/arfftocsv
 
