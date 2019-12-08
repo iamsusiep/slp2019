@@ -30,6 +30,20 @@ Contains Audio files that after trimming to speech segments with sox. Correspond
 
 OpenSMILE: https://www.audeering.com/opensmile/, https://siminyang6.wordpress.com/2018/08/05/install-opensmile-on-mac/
 
+`brew install audioconf automake libtool m4 gcc`
+
+`tar -zxvf opensmile-2.3.0.tar.gz`
+
+`cd opensmile-2.3.0`
+
+`bash autogen.sh`  (repeat this over 2 times)
+
+`./configure` 
+
+`make -j4 ; make`
+
+`make install`
+
 ARFF to CSV converter: https://github.com/haloboy777/arfftocsv
 
 Slides: https://docs.google.com/presentation/d/1b9r6CmesxDIpdsGlOkdc4n3NjGh6y2bmzJg2_dmdO0E/edit?usp=sharing
