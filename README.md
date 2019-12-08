@@ -28,7 +28,7 @@ Speech: https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
 
 Contains Audio files that after trimming to speech segments with sox. Corresponding transcription done for 
 
-OpenSMILE:
+OpenSMILE: https://www.audeering.com/opensmile/, https://siminyang6.wordpress.com/2018/08/05/install-opensmile-on-mac/
 
 ARFF to CSV converter: https://github.com/haloboy777/arfftocsv
 
