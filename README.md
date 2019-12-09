@@ -1,12 +1,16 @@
 # Film Quality Prediction using Acoustic, Prosodic and Lexical Cues
 
 
+### Aeneas: 
+https://github.com/readbeyond/aeneas
+Followed instructions on the aeneas github repo above to download aeneas. Refer to `aeneas.ipynb` in this repo to process aeneas for our project.
 
-Aeneas: https://github.com/readbeyond/aeneas
+### sox: 
+`brew install sox`
 
-sox: `brew install sox`
-
+The code was ran on local, I used the following code to trim the audio file to speech segments.
 `dir_name` is directory in which you uncompress all the `output_example*.zip`
+
 
 ```python
 import pandas as pd
@@ -24,11 +28,15 @@ for file_path in glob('dir_name/*/OEBPS/Resources/*.csv'):
         count += 1
 ```
 
-Speech: https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
+### Speech: 
+https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
 
-Contains Audio files that after trimming to speech segments with sox. Corresponding transcription done for 
+Contains Audio files that after trimming to speech segments with sox. Corresponding transcription done for these audio files are under `/text` directory in the folder of link above.
 
-OpenSMILE: https://www.audeering.com/opensmile/, https://siminyang6.wordpress.com/2018/08/05/install-opensmile-on-mac/
+### OpenSMILE: 
+https://www.audeering.com/opensmile/
+
+Setup: 
 
 `brew install audioconf automake libtool m4 gcc`
 
@@ -44,10 +52,18 @@ OpenSMILE: https://www.audeering.com/opensmile/, https://siminyang6.wordpress.co
 
 `make install`
 
-ARFF to CSV converter: https://github.com/haloboy777/arfftocsv
+### ARFF to CSV converter: 
+https://github.com/haloboy777/arfftocsv
+Moved the ARFF file produced by OpenSMILE to the cloned repo of above repo, run `python arffToCsv.py`
 
-Slides: https://docs.google.com/presentation/d/1b9r6CmesxDIpdsGlOkdc4n3NjGh6y2bmzJg2_dmdO0E/edit?usp=sharing
 
-Paper: https://www.overleaf.com/project/5ddde5bd69f06f00014d5e26
+## Other Links
+### Slides:
+https://docs.google.com/presentation/d/1b9r6CmesxDIpdsGlOkdc4n3NjGh6y2bmzJg2_dmdO0E/edit?usp=sharing
 
-Folder Containing Features Extracted: https://drive.google.com/drive/folders/1lsKFIMiyJEkInHC0fZiYB6BtCSGWMAdE?usp=sharing      
+### Paper: 
+https://www.overleaf.com/project/5ddde5bd69f06f00014d5e26
+
+### Folder Containing Features Extracted: https://drive.google.com/drive/folders/1lsKFIMiyJEkInHC0fZiYB6BtCSGWMAdE?usp=sharing      
+
+
