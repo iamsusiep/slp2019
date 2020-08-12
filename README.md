@@ -43,19 +43,19 @@ for file_path in glob('dir_name/*/OEBPS/Resources/*.csv'):
 
 Setup: 
 
-`brew install audioconf automake libtool m4 gcc`
+`!brew install audioconf automake libtool m4 gcc`
 
-`tar -zxvf opensmile-2.3.0.tar.gz`
+`!tar -zxvf opensmile-2.3.0.tar.gz`
 
-`cd opensmile-2.3.0`
+`!cd opensmile-2.3.0`
 
-`bash autogen.sh`  (repeat this over 2 times)
+`!bash autogen.sh`  (repeat this over 2 times)
 
-`./configure` 
+`!./configure` 
 
-`make -j4 ; make`
+`!make -j4 ; make`
 
-`make install`
+`!make install`
 
 * ARFF to CSV converter: We used the following repo to convert the Arff file from OpenSMILE feature extraction.
 https://github.com/haloboy777/arfftocsv
