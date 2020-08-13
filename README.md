@@ -76,8 +76,6 @@ https://docs.google.com/presentation/d/1b9r6CmesxDIpdsGlOkdc4n3NjGh6y2bmzJg2_dmd
 https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
 
 Contains Audio files that after trimming to speech segments with sox. Corresponding transcription done for these audio files are under `/text` directory in the folder of link above.
-### Paper: 
-https://www.overleaf.com/project/5ddde5bd69f06f00014d5e26
 
 ### Folder Containing Features Extracted: https://drive.google.com/drive/folders/1lsKFIMiyJEkInHC0fZiYB6BtCSGWMAdE?usp=sharing      
 
