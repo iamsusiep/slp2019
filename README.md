@@ -64,9 +64,7 @@ Moved the ARFF file produced by OpenSMILE to the cloned repo of above repo, run 
 #### Modeling
 * `ML_notebook_RF.ipynb`: This notebook first merges all the features in our dataset, then trains a Random Forest model to predict IMDB average rating. 
 * `ML_notebook.ipynb`: This notebook first merges all the features in our dataset, then trains a LASSO model to predict IMDB average rating. 
-
-
-
+* `metascore.ipynb`: This notebook trains RF/Lasso models to predict Metascore rating, which is the final metric used in the SLT paper.
 
 ## Other Links
 ### Slides:
@@ -77,6 +75,6 @@ https://drive.google.com/open?id=1nN_dvH8bVCJ3aAN70zT0MlOz2pZmwDuE
 
 Contains Audio files that after trimming to speech segments with sox. Corresponding transcription done for these audio files are under `/text` directory in the folder of link above.
 
-### Folder Containing Features Extracted: https://drive.google.com/drive/folders/1lsKFIMiyJEkInHC0fZiYB6BtCSGWMAdE?usp=sharing      
+### Folder Containing Extracted Features: https://drive.google.com/drive/folders/1lsKFIMiyJEkInHC0fZiYB6BtCSGWMAdE?usp=sharing      
 
 
